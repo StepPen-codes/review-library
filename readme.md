@@ -2,6 +2,8 @@ Library is a web app designed as a hobby. The creator needed a web app to record
 
 You can view the app here https://steppen-codes.github.io/review-library/
 
+- Stephen Lance Manzano
+
 <hr>
 
 <h1>HOW TO USE?</h1>
@@ -13,8 +15,6 @@ You can view the app here https://steppen-codes.github.io/review-library/
 </ol>
 
 Do note that the codes are a little messy considering it was done like a rough draft
-
-- Stephen Lance Manzano
 
 <hr>
 
