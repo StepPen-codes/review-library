@@ -1,8 +1,22 @@
 Library is a web app designed as a hobby. The creator needed a web app to record his reviewer notes that mainly consists of questions and answers. It was also designed to be of help to those who needs it.
 
+You can view the app here https://steppen-codes.github.io/review-library/
+
+<hr>
+
+<h1>HOW TO USE?</h1>
+<ol>
+  <li>There are three main tabs at the top-right namely; File, Edit and About (note: subject to changes)</li>
+  <li>To save or open a library open the file tab.</li>
+  <li>To add, edit or remove a card, open the Edit tab.</li>
+  <li>To see the purpose of the app, creators of the app and the version/updates of the app open the about tab</li>
+</ol>
+
 Do note that the codes are a little messy considering it was done like a rough draft
 
 - Stephen Lance Manzano
+
+<hr>
 
 Copyright 2021 Stephen Lance Manzano
 
