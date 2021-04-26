@@ -101,7 +101,8 @@ button.inactiveButton{
 }
 .panel .verText{
     font-size: .5rem;
-    color:#faaa;
+    font-weight:bold;
+    color:#f44f;
 }
 .panel p{
     padding:0 1rem;
