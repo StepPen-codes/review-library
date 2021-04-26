@@ -1,0 +1,137 @@
+section.interface{
+    position: fixed;
+    box-sizing:border-box;
+    top:3rem;right:0;
+    width:256px;height:calc(100vh - 3rem);
+    background:var(--interfacecolor);
+    overflow-y: scroll;
+}
+.interface :is(h1){
+    font-size:1.5rem;
+    margin: 3rem 0 0 1rem;
+    font-weight: 300;
+}
+.interface :is(.textbox,.label,.desc){
+    box-sizing: border-box;
+    border:0;
+    display:block;
+    width:100%;
+    min-height: .8rem;
+    padding:.2rem 1rem;
+    outline:0;
+}
+.interface .textbox{
+    font-size: 0.8rem;
+    opacity:70%;
+    word-break: break-all;
+}
+.interface .textbox:focus{
+    padding-left:calc(1rem - 3px);
+    border-left:3px solid #000;
+    transition:padding .2s, border .2s;
+}
+.interface input::placeholder{
+    color:black;
+}
+
+.interface :is(.question,.answer,.tags,.buttonSet,.desc){
+    margin-top: 2rem
+
+}
+.buttonSet{
+    display:flex;
+    align-items: stretch;
+    border-bottom:1px solid #0008;
+}
+button{
+    flex-grow: 1;
+    flex-shrink: 1;
+    background:0;
+    padding:0;
+    border:0;
+    outline:0;        	
+    transition: background .5s, color .5s, opacity .5s;
+    height:2rem;
+    font-weight: 100;
+    opacity:.7;
+}
+.buttonSet .miscButton:is(:hover, :focus){
+    opacity:1;
+}
+button.miscButton{
+    margin-left:.5rem;
+}
+button.miscButton:last-of-type{
+    margin-right:.5rem;
+}
+.buttonSet :is(#addCard, #removeCard, #saveCard, #openLib){
+    flex-grow: 8;
+    opacity:1;
+}
+.buttonSet :is(#addCard, #removeCard, #saveCard, #openLib):is(:hover,:focus){
+    background:var(--headercolor);
+    color:#fff;
+}
+button.inactiveButton{
+    display:none;
+}
+.selection{
+    margin-top:1rem;
+    font-size: .8rem;
+}
+.pop{
+    height:0;
+    overflow: hidden;
+    transform: translate(0,-1rem);
+    opacity:0;
+    transition: transform .5s, opacity .5s;
+}
+.pop.active{
+    transform: translate(0,0);
+    opacity:1;
+}
+.interface .panel{
+    font-size:0.8rem;
+    border-bottom:1px solid #0008;
+    padding: 2rem 0;
+}
+.panel h1{
+    font-size:1.5rem;
+    margin:.5rem 1rem;
+}
+.panel .verText{
+    font-size: .5rem;
+    color:#faa5;
+}
+.panel p{
+    padding:0 1rem;
+    white-space: pre-wrap;
+    margin:0;
+}
+.panel .lightText{
+    color:#0008;
+}
+.buttonList{
+    padding:0;
+}
+.buttonList li{
+    display:block;
+    margin:1rem 0 ;
+}
+.buttonList .fileButton{
+    cursor: pointer;
+    opacity:.7;
+    padding-left:1rem;
+    transition:opacity .2s;
+}
+.buttonList .fileButton:hover{
+    padding-left:calc( 1rem - 3px);
+    border-left:3px solid #000;
+    opacity: 1;
+}
+input[type=file]{
+    margin:1rem;
+    outline:0;
+    border:0;
+    background:#fff;
+}
