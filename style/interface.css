@@ -136,3 +136,8 @@ input[type=file]{
     border:0;
     background:#fff;
 }
+@media print{
+    section.interface{
+        display: 0
+    }
+}
