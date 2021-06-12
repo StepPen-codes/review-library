@@ -42,3 +42,9 @@ section.container{
 	width:1rem;
 	padding:.2rem;
 }
+@media print{
+	section.container{
+		max-width: 100%;
+		display:block;
+	}
+}
