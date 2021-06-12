@@ -61,3 +61,12 @@ header::before{
     font-weight:300;
     margin-right:.5ch;
 }
+
+@media print{
+    header{
+        position:static;
+    }
+    header nav{
+        display:0;
+    }
+}
