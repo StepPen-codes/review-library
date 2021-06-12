@@ -67,6 +67,6 @@ header::before{
         position:static;
     }
     header nav{
-        display:0;
+        display: none;
     }
 }
