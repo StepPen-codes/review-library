@@ -138,6 +138,6 @@ input[type=file]{
 }
 @media print{
     section.interface{
-        display: 0
+        display: none
     }
 }
